@@ -17,11 +17,18 @@ import java.util.Map;
 public class UserController {
 
 
+
     public Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
     private UserService userService;
 
+
+    /**
+     * 新增一个注释
+     * @param name
+     * @return
+     */
     @GetMapping("/userBuy")
     public Map<String, String> buyTicket(String name) {
         Map<String, String> result = new HashMap<String, String>();
