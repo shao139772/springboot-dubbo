@@ -17,7 +17,7 @@ import java.util.Map;
 public class UserController {
 
 
-
+    //这个注释是从GitHub上新增的
     public Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
